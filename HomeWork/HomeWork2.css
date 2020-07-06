@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.blue-box {
+  height: 100%;
+  width: 100%;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-box {
+  height: 40%;
+  width: 20%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.gray-box {
+  height: 80px;
+  width: 80px;
+  background-color: gray;
+  border: 5px solid pink;
+}
+
+.gray-box:nth-child(2):hover {
+  background-color: red;
+}

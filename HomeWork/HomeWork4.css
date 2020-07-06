@@ -1,0 +1,122 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.box-top {
+  height: 50%;
+  width: 100%;
+  background-color: teal;
+}
+
+.circle-center {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: 40%;
+  left: 50%;
+  position: relative;
+  background-color: white;
+  animation: 2s turn infinite ease-in-out;
+}
+
+.circle-left {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  left: -100px;
+  position: absolute;
+  background-color: white;
+}
+
+.circle-right {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  left: 100px;
+  position: absolute;
+  background-color: white;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.box-bottom {
+  height: 50%;
+  width: 100%;
+  top: 50%;
+  background-color: aquamarine;
+}
+
+.longbox-center {
+  height: 100px;
+  width: 20px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  position: relative;
+  animation: 3s size infinite ease-in-out;
+  animation-delay: -1.6s;
+}
+.longbox1 {
+  height: 100px;
+  width: 20px;
+  top: 75%;
+  left: 46%;
+  background-color: white;
+  position: absolute;
+  animation: 3s size infinite ease-in-out;
+  animation-delay: -2s;
+}
+.longbox2 {
+  height: 100px;
+  width: 20px;
+  top: 75%;
+  left: 48%;
+  background-color: white;
+  position: absolute;
+  animation: 3s size infinite ease-in-out;
+  animation-delay: -1.8s;
+}
+.longbox3 {
+  height: 100px;
+  width: 20px;
+  top: 75%;
+  left: 52%;
+  background-color: white;
+  position: absolute;
+  animation: 3s size infinite ease-in-out;
+  animation-delay: -1.4s;
+}
+.longbox4 {
+  height: 100px;
+  width: 20px;
+  top: 75%;
+  left: 54%;
+  background-color: white;
+  position: absolute;
+  animation: 3s size infinite ease-in-out;
+  animation-delay: -1.2s;
+}
+
+@keyframes size {
+  0%,
+  40%,
+  100% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1, 1.8);
+  }
+}

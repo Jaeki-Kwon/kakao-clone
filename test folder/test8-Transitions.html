@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Welcome to my page" />
+    <meta name="author" content="Jae Ki" />
+    <title>Transtions</title>
+    <style>
+      .box {
+        background-color: green;
+        color: white;
+        /* hover할 때 배경색이 5초에 걸쳐 빨강색으로 변함. */
+        transition: background-color 0.5s ease-in-out;
+        /* transition: all 0.5s ease-in-out; */
+      }
+      /* .box:hover {
+        background-color: red;
+        color: blue;
+      } */
+      .box:active {
+        background-color: red;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="box">
+      Text
+    </span>
+  </body>
+</html>

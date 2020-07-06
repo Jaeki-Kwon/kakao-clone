@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+body,
+html {
+  height: 1500px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.blue-box {
+  height: 1210px;
+  width: 80%;
+  top: 300px;
+  left: 0;
+  position: absolute;
+  display: inline-block;
+  background-color: aqua;
+}
+.font-a {
+  font-size: 100px;
+  color: white;
+  padding: 50px;
+}
+.yellow-box {
+  height: 1200px;
+  width: 20%;
+  left: 80%;
+  top: 300px;
+  display: inline-block;
+  background-color: yellow;
+  border: 5px solid gray;
+  position: absolute;
+}
+.red-box {
+  height: 300px;
+  width: 100%;
+  background-color: crimson;
+  position: fixed;
+}
+.green-box {
+  height: 80px;
+  width: 200px;
+  top: 260px;
+  left: 75%;
+  position: fixed;
+  background-color: green;
+}
